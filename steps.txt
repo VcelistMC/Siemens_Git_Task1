@@ -1,0 +1,3 @@
+1. Create git repo using "git init"
+2. write getSum and main function
+3. commit file to master branch
