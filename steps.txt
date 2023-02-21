@@ -1,3 +1,6 @@
 1. Create git repo using "git init"
 2. write getSum and main function
 3. commit file to master branch
+4. create github repo
+5. add github remote link to local repo using "git remote add origin https://github.com/VcelistMC/Siemens_Git_Task1.git"
+6. push master branch to remote
