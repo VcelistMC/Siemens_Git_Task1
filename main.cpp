@@ -14,10 +14,19 @@ double getAvg(vector<int> arr){
     return (double) getSum(arr) / arr.size();
 }
 
+int getMin(vector<int> arr){
+    int s = arr[0];
+    for (int element: arr){
+        s = (s > element)? element: s;
+    }
+    return s;
+}
+
 int main(int argc, char const *argv[])
 {
     vector<int> arr{1, 2, 3, 4, 7};
     cout << getSum(arr) << endl;
     cout << getAvg(arr) << endl;
+    cout << getMin(arr) << endl;
     return 0;
 }

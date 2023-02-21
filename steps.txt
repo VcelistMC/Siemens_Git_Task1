@@ -4,6 +4,15 @@
 4. create github repo
 5. add github remote link to local repo using "git remote add origin https://github.com/VcelistMC/Siemens_Git_Task1.git"
 6. push master branch to remote using "git push origin main"
-7. create two new branches using "git checkout -b {branchName}"
+7. create new branch using "git checkout -b get-avg-branch"
 8. add get avg function
 9. commit changes to 'get-avg-branch'
+10. create new branch using "git checkout -b get-min-branch"
+11. add get min function
+12. commit changes to get-min-branch
+13. checkout to main using "git checkout main"
+14. merge 'get-avg-branch` using "git merge get-avg-branch"
+15. push changes to remote
+16. merge `get-min-branch` using "git merge get-min-branch"
+17. resolve conflicts
+18. push changes to remote
