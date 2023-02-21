@@ -10,9 +10,14 @@ int getSum(vector<int> arr){
     return s;
 }
 
+double getAvg(vector<int> arr){
+    return (double) getSum(arr) / arr.size();
+}
+
 int main(int argc, char const *argv[])
 {
-    vector<int> arr{1,2, 3, 4, 5};
+    vector<int> arr{1, 2, 3, 4, 7};
     cout << getSum(arr) << endl;
+    cout << getAvg(arr) << endl;
     return 0;
 }

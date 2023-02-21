@@ -3,4 +3,7 @@
 3. commit file to master branch
 4. create github repo
 5. add github remote link to local repo using "git remote add origin https://github.com/VcelistMC/Siemens_Git_Task1.git"
-6. push master branch to remote
+6. push master branch to remote using "git push origin main"
+7. create two new branches using "git checkout -b {branchName}"
+8. add get avg function
+9. commit changes to 'get-avg-branch'
